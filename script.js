@@ -1,11 +1,11 @@
 
-const list = document.getElementById('body-home');
+const BODY_HOME = document.getElementById('body-home');
 
 // 'beforeend' คือการเอาไปวางต่อท้ายสุด (ก่อนปิดแท็ก)
-list.insertAdjacentHTML('beforeend', `
+BODY_HOME.insertAdjacentHTML('beforeend', `
     <header class="top-bar">
         <div class="logo">
-            <img class="un-invert" src="https://latex.codecogs.com/svg.latex?\color{white}{\text{Q}_{\;\!\!\text{ua}}^{\,\,\text{ne}}\>\!\!\text{rise}}" width="250px" alt="Quanerise">
+            <img class="un-invert" src="https://latex.codecogs.com/svg.latex?\\color{white}{\\text{Q}_{\\;\\!\\!\\text{ua}}^{\\,\\,\\text{ne}}\\>\\!\\!\\text{rise}}" width="250px" alt="Quanerise">
             <!-- <img class="invert" src="svg-logo/phattisu-text-logo.svg" alt="Logo"> -->
         </div>
         <h1>หน้าหลัก</h1>
@@ -34,7 +34,7 @@ list.insertAdjacentHTML('beforeend', `
     </aside>
     <main id="main-area" class="content">
         <img class="header-logo" src="svg-icon/sensorystar-solid-color.svg" alt="Sensory Star"/>
-        <img class="un-invert" src="https://latex.codecogs.com/svg.latex?\color{white}{\text{Q}_{\;\!\!\text{ua}}^{\,\,\text{ne}}\>\!\!\text{rise}}" width="250px" alt="Quanerise"/>
+        <img class="un-invert" src="https://latex.codecogs.com/svg.latex?\\color{white}{\\text{Q}_{\\;\\!\\!\\text{ua}}^{\\,\\,\\text{ne}}\\>\\!\\!\\text{rise}}" width="250px" alt="Quanerise"/>
         <h2>สวัสดีผม ภัทร</h2>
         <p>ยินดีต้อนรับสู่เว็บไซต์ของเรานะครับ</p>
         <p>ที่นี่เป็นเว็บไซต์ที่ให้ความรู้เกี่ยวกับการเขียนโปรแกรม และเทคโนโลยีต่างๆ</p>
@@ -43,7 +43,7 @@ list.insertAdjacentHTML('beforeend', `
         <p>หรือติดต่อผ่านเฟสบุ๊คได้ที่ <a href="https://www.facebook.com/phattisu.naphat.maninil" id="link" class="button">phattisu.naphat.maninil</a></p>
     </main>
     <footer class="footer">
-        <p class="center"><img class="un-invert" src="https://latex.codecogs.com/svg.latex?\color{white}{\text{Q}_{\;\!\!\text{ua}}^{\,\,\text{ne}}\>\!\!\text{rise}}" width="60px" alt="Quanerise"> </p>
+        <p class="center"><img class="un-invert" src="https://latex.codecogs.com/svg.latex?\\color{white}{\\text{Q}_{\\;\\!\\!\\text{ua}}^{\\,\\,\\text{ne}}\\>\\!\\!\\text{rise}}" width="60px" alt="Quanerise"> </p>
         <p class="center">ติดต่อมาได้ที่  <a href="mailto:naphatism@hotmail.com" id="email" class="button">hotmail.naphatism</a></p>
     </footer>
 `);
