@@ -28,7 +28,6 @@ html, body {
   color: var(--color-text); /* สีข้อความ */
 }
 
-body:has(header) {
 header.top-bar {
   background-color: var(--color-background); /* สีพื้นหลัง */
   border-bottom-style:solid;
@@ -425,7 +424,6 @@ p.center {
   img.un-invert {
     filter: invert(100%); /* ไม่ต้องกลับสีสำหรับโหมดสว่าง */
   }
-}
 }
 
 body:has(.no-code) {
