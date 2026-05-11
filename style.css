@@ -428,9 +428,9 @@ p.center {
 
 body:has(.no-code) {
   noscript {
-    /* display: block; /* แสดงเนื้อหาเมื่อไม่มี JavaScript */
-    /* text-align: center; /* จัดตำแหน่งข้อความให้อยู่ตรงกลาง */
-    /* padding: 2rem; /* ระยะห่างรอบๆ ข้อความ */
+    display: block; /* แสดงเนื้อหาเมื่อไม่มี JavaScript */
+    text-align: center; /* จัดตำแหน่งข้อความให้อยู่ตรงกลาง */
+    padding: 2rem; /* ระยะห่างรอบๆ ข้อความ */
     font-size: 1.5rem; /* ขนาดตัวอักษร */
     color: var(--color-text); /* สีข้อความ */
   }
