@@ -45,4 +45,5 @@ BODY_HOME.insertAdjacentHTML('beforeend', `
         <p class="center"><img class="un-invert" src="https://latex.codecogs.com/svg.latex?\\color{white}{\\text{Q}_{\\;\\!\\!\\text{ua}}^{\\;\\!\\!\\text{ner}}\\;\\!\\!\\text{lfo}}" width="60px" alt="Quanerise"> </p>
         <p class="center">ติดต่อมาได้ที่  <a href="mailto:naphatism@hotmail.com" id="email" class="button">hotmail.naphatism</a></p>
     </footer>
+    <script src="./script.js"></script>
 `);
